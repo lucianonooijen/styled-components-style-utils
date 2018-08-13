@@ -1,4 +1,4 @@
-export default type => {
+module.exports = type => {
     switch (type) {
         case 'both':
             return `display:flex;align-items:center;justify-content:center;`;

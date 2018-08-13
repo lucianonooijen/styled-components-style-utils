@@ -1,4 +1,4 @@
-export default () => `
+module.exports = () => `
     *:not(path):not(g) {
         $debug-background: hsla(210, 100%, 50%, 0.5);
         $debug-color: hsla(210, 100%, 100%, 0.9);

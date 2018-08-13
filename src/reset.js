@@ -1,4 +1,4 @@
-export default () => `
+module.exports = () => `
     html,
     body,
     div,
