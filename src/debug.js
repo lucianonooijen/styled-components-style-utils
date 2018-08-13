@@ -1,11 +1,12 @@
+const debugBackground = 'hsla(210, 100%, 50%, 0.5)';
+const debugColor = 'hsla(210, 100%, 100%, 0.9)';
+const debugOutline = 'hsla(210, 100%, 100%, 0.5)';
+
 module.exports = () => `
     *:not(path):not(g) {
-        $debug-background: hsla(210, 100%, 50%, 0.5);
-        $debug-color: hsla(210, 100%, 100%, 0.9);
-        $debug-outline: hsla(210, 100%, 100%, 0.5);
-        background: $debug-background !important;
+        background: ${debugBackground} !important;
         box-shadow: none !important;
-        color: $debug-color !important;
-        outline: solid .25rem $debug-outline !important;
+        color: ${debugColor} !important;
+        outline: solid .25rem ${debugOutline} !important;
     }
 `;
